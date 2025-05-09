@@ -1,16 +1,28 @@
-## Hi there 👋
+# 👋 Hi, I'm monta-gh
 
-<!--
-**monta-gh/monta-gh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a freelance AI enthusiast with a strong background in localization and translation QA.  
+I build tools that combine Python and OpenAI's GPT to automate and enhance language quality evaluation.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🛠 Featured Projects
+
+### 🔎 [Mistranslation-Detector](https://github.com/monta-gh/Mistranslation-Detector)
+A tool that detects potential translation issues using GPT-based direct evaluation and back translation.  
+- Input: Excel translation pairs  
+- Output: Risk scores & explanation  
+- Tech: Python, OpenAI API, pandas
+---
+
+## 🧰 Skills
+Python · OpenAI API · Flask · GitHub · Translation QA · RAG · Prompt Engineering
+
+---
+
+## 💡 Currently
+- Exploring opportunities for remote freelance AI work
+
+---
+
+📫 Contact: Feel free to reach out via GitHub Issues.
+🔗 GitHub: [monta-gh](https://github.com/monta-gh)
