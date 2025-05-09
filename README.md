@@ -15,11 +15,13 @@ A tool that detects potential translation issues using GPT-based direct evaluati
 ---
 
 🧰 Skills  
+
 Python · OpenAI API · Flask · GitHub · Translation QA · RAG · Prompt Engineering
 
 ---
 
 💡 Currently  
+
 Exploring opportunities for remote freelance AI work
 
 ---
