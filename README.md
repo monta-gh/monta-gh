@@ -7,25 +7,17 @@ My journey with GenAI began about a year ago, when I built a translation QA tool
 
 🛠 Featured Projects
 
-🔎 \*\*Mistranslation-Detector\*\* &#x20;
+🔎 **Mistranslation-Detector**  
+A tool that detects potential translation issues using GPT-based direct evaluation and back translation.  
+- **Input**: Excel translation pairs  
+- **Output**: Risk scores & explanation  
+- **Tech**: Python, OpenAI API, pandas
 
-A tool that detects potential translation issues using GPT-based direct evaluation and back translation. &#x20;
-
-\- \*\*Input\*\*: Excel translation pairs &#x20;
-
-\- \*\*Output\*\*: Risk scores & explanation &#x20;
-
-\- \*\*Tech\*\*: Python, OpenAI API, pandas
-
-🤖 \*\*OAT-Chatbot\*\* &#x20;
-
-A Japanese-language chatbot using RAG (Retrieval-Augmented Generation) to answer questions based on private blog content. &#x20;
-
-\- \*\*Search\*\*: Hybrid of vector search (ChromaDB) and keyword filtering &#x20;
-
-\- \*\*Output\*\*: Natural responses grounded in blog context &#x20;
-
-\- \*\*Tech\*\*: Python, Flask, OpenAI API, ChromaDB, janome
+🤖 **OAT-Chatbot**  
+A Japanese-language chatbot using RAG (Retrieval-Augmented Generation) to answer questions based on private blog content.  
+- **Search**: Hybrid of vector search (ChromaDB) and keyword filtering  
+- **Output**: Natural responses grounded in blog context  
+- **Tech**: Python, Flask, OpenAI API, ChromaDB, janome
 
 \---
 
