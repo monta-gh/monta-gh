@@ -1,6 +1,6 @@
 👋 Hi, I'm monta-gh  
 I'm a freelance AI enthusiast with nearly 20 years of experience in localization and multilingual translation QA, backed by a degree from a U.S. university.  
-I focus on leveraging AI tools—not as a full-stack engineer, but as a practical user—to enhance language workflows and build prototypes that demonstrate real-world value.
+I focus on leveraging AI tools—not as a full-stack engineer, but as a practical user—to enhance language workflows and build prototypes that demonstrate real-world value.  
 My journey with GenAI began about a year ago, when I built a translation QA tool using Power Automate and Azure OpenAI—without any knowledge of the tool—which eventually led me to create similar tools in Python.
 ---
 
