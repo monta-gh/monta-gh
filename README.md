@@ -1,6 +1,6 @@
 👋 Hi, I'm monta-gh  
 I'm a freelance AI enthusiast with nearly 20 years of experience in localization and multilingual translation QA, backed by a degree from a U.S. university.  
-I build AI-powered tools that combine Python, OpenAI API, and vector search (RAG) to improve language workflows and explore real-world applications.
+I focus on leveraging AI tools—not as a full-stack engineer, but as a practical user—to enhance language workflows and build prototypes that demonstrate real-world value.
 
 ---
 
