@@ -31,7 +31,3 @@ Python · OpenAI API · ChromaDB · GitHub · Translation QA · RAG · Prompt En
 Exploring opportunities for remote freelance AI work
 
 ---
-
-📫 Contact: Feel free to reach out via GitHub Issues.  
-🔗 GitHub Username: monta-gh
-
