@@ -1,6 +1,6 @@
 👋 Hi, I'm monta-gh  
-I'm a freelance AI enthusiast with a strong background in localization and translation QA.  
-I build tools that combine Python and OpenAI's GPT to automate and enhance language quality evaluation.
+I'm a freelance AI enthusiast with nearly 20 years of experience in localization and multilingual translation QA, backed by a degree from a U.S. university.  
+I build AI-powered tools that combine Python, OpenAI API, and vector search (RAG) to improve language workflows and explore real-world applications.
 
 ---
 
@@ -12,11 +12,17 @@ A tool that detects potential translation issues using GPT-based direct evaluati
 - **Output**: Risk scores & explanation  
 - **Tech**: Python, OpenAI API, pandas
 
+🤖 **OAT-Chatbot**  
+A Japanese-language chatbot using RAG (Retrieval-Augmented Generation) to answer questions based on private blog content.  
+- **Search**: Hybrid of vector search (ChromaDB) and keyword filtering  
+- **Output**: Natural responses grounded in blog context  
+- **Tech**: Python, Flask, OpenAI API, ChromaDB, janome
+
 ---
 
 🧰 Skills  
 
-Python · OpenAI API · Flask · GitHub · Translation QA · RAG · Prompt Engineering
+Python · OpenAI API · ChromaDB · GitHub · Translation QA · RAG · Prompt Engineering
 
 ---
 
@@ -27,4 +33,5 @@ Exploring opportunities for remote freelance AI work
 ---
 
 📫 Contact: Feel free to reach out via GitHub Issues.  
-🔗 GitHub: [monta-gh](https://github.com/monta-gh)
+🔗 GitHub Username: monta-gh
+
