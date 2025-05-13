@@ -15,8 +15,9 @@ A tool that detects potential translation issues using GPT-based direct evaluati
 * **Output**: Risk scores & explanation
 * **Tech**: Python, OpenAI API, pandas
 
-  <img src="sample_mistranslation_detector.png" alt="Sample Output" width="800" style="margin-bottom: 0;"/>
-
+<p>
+  <img src="sample_mistranslation_detector.png" alt="Sample Output" width="800"/>
+</p>
 🤖 **OAT-Chatbot**
 A Japanese-language chatbot using RAG (Retrieval-Augmented Generation) to answer questions based on private blog content.
 
