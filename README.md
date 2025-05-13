@@ -13,15 +13,20 @@ A tool that detects potential translation issues using GPT-based direct evaluati
 
 * **Input**: Excel translation pairs
 * **Output**: Risk scores & explanation
-* **Tech**: Python, OpenAI API, pandas  
-  ![Sample Output](sample_mistranslation_detector.png)
+* **Tech**: Python, OpenAI API, pandas
+
+  <img src="sample_mistranslation_detector.png" alt="Sample Output" width="800" style="margin-bottom: 0;"/>
+
 🤖 **OAT-Chatbot**
 A Japanese-language chatbot using RAG (Retrieval-Augmented Generation) to answer questions based on private blog content.
 
 * **Search**: Hybrid of vector search (ChromaDB) and keyword filtering
 * **Output**: Natural responses grounded in blog context
-* **Tech**: Python, Flask, OpenAI API, ChromaDB, janome  
-  ![Sample Output](sample_OAT-Chatbot.png)
+* **Tech**: Python, Flask, OpenAI API, ChromaDB, janome
+
+<p align="center">
+  <img src="sample_OAT-Chatbot.png" alt="Sample Output" width="500"/>
+</p>
 
 ---
 
