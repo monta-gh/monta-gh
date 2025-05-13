@@ -8,7 +8,7 @@ That experience marked the beginning of my journey with generative AI, and since
 
 🛠 Featured Projects
 
-🔎 **Mistranslation-Detector**
+🔎 **[Mistranslation-Detector](https://github.com/monta-gh/Mistranslation-Detector)**
 A tool that detects potential translation issues using GPT-based direct evaluation and back translation.
 
 * **Input**: Excel translation pairs
@@ -19,7 +19,7 @@ A tool that detects potential translation issues using GPT-based direct evaluati
   <img src="sample_mistranslation_detector.png" alt="Sample Output" width="800"/>
 </p>
 
-🤖 **OAT-Chatbot**
+🤖 **[OAT-Chatbot](https://github.com/monta-gh/OAT-Chatbot)** 
 A Japanese-language chatbot using RAG (Retrieval-Augmented Generation) to answer questions based on private blog content.
 
 * **Search**: Hybrid of vector search (ChromaDB) and keyword filtering
