@@ -20,12 +20,12 @@ By combining both approaches, it leverages GPT in a unique way to score and clas
   <img src="sample_mistranslation_detector.png" alt="Sample Output" width="800"/>
 </p>
 
-🤖 **[OAT-Chatbot](https://github.com/monta-gh/OAT-Chatbot)** 
-A Japanese-language chatbot using RAG (Retrieval-Augmented Generation) to answer questions based on private blog content.
+🤖 **[OAT-Chatbot](https://github.com/monta-gh/OAT-Chatbot)**  
+A Japanese-language chatbot that uses RAG (Retrieval-Augmented Generation) to answer questions based on private blog content.
 
 * **Search**: Hybrid of vector search (ChromaDB) and keyword filtering
 * **Output**: Natural responses grounded in blog context
-* **Tech**: Python, Flask, OpenAI API, ChromaDB, janome
+* **Tech**: Python, Flask, OpenAI API, ChromaDB, janome, RAG
 
 <p align="center">
   <img src="sample_OAT-Chatbot.png" alt="Sample Output" width="500"/>
