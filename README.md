@@ -8,8 +8,9 @@ That experience marked the beginning of my journey with generative AI, and since
 
 🛠 Featured Projects
 
-🔎 **[Mistranslation-Detector](https://github.com/monta-gh/Mistranslation-Detector)**
+🔎 **[Mistranslation-Detector](https://github.com/monta-gh/Mistranslation-Detector)**  
 A tool that detects potential translation issues using GPT-based direct evaluation and back translation.
+By combining both approaches, it leverages GPT in a unique way to score and classify translation quality more effectively.
 
 * **Input**: Excel translation pairs
 * **Output**: Risk scores & explanation
