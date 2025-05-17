@@ -8,6 +8,17 @@ That experience marked the beginning of my journey with generative AI, and since
 
 🛠 Featured Projects
 
+🧩 **[RPA-Prompt-TranslationQA](https://github.com/monta-gh/RPA-Prompt-TranslationQA)**
+An AI-powered QA tool that classifies translation errors and detects subtle meaning mismatches using prompt-engineered GPT evaluations inside a Power Automate flow.
+
+* **Automation**: Structured error detection via two-stage GPT calls
+* **Output**: Error severity, error type, back translation, and meaning alignment
+* **Tech**: Power Automate, Azure OpenAI (GPT-4o), Excel
+
+<p>
+  <img src="excel_sample.png" alt="Sample Output" width="800"/>
+</p>
+
 🔎 **[Mistranslation-Detector](https://github.com/monta-gh/Mistranslation-Detector)**  
 A tool that detects potential translation issues using GPT-based direct evaluation and back translation.
 By combining both approaches, it leverages GPT in a unique way to score and classify translation quality more effectively.
