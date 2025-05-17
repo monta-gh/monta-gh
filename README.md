@@ -13,7 +13,7 @@ An AI-powered QA tool that classifies translation errors and detects subtle mean
 
 * **Automation**: Structured error detection via two-stage GPT calls
 * **Output**: Error severity, error type, back translation, and meaning alignment
-* **Tech**: Power Automate, Azure OpenAI (GPT-4o), Excel
+* **Tech**: Power Automate, OpenAI API (GPT-4o via Azure), Excel Automation
 
 <p>
   <img src="excel_sample.png" alt="Sample Output" width="800"/>
@@ -25,7 +25,7 @@ By combining both approaches, it leverages GPT in a unique way to score and clas
 
 * **Input**: Excel translation pairs
 * **Output**: Risk scores & explanation
-* **Tech**: Python, OpenAI API, pandas
+* **Tech**: Python, OpenAI API (GPT-4o-mini), pandas
 
 <p>
   <img src="sample_mistranslation_detector.png" alt="Sample Output" width="800"/>
