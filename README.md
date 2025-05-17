@@ -8,7 +8,7 @@ That experience marked the beginning of my journey into prompt engineering and g
 
 🛠 Featured Projects
 
-🧩 **[RPA-Prompt-TranslationQA](https://github.com/monta-gh/RPA-Prompt-TranslationQA)**
+🧩 **[RPA-Prompt-TranslationQA](https://github.com/monta-gh/RPA-Prompt-TranslationQA)**  
 An AI-powered QA tool that classifies translation errors and detects subtle meaning mismatches using prompt-engineered GPT evaluations inside a Power Automate flow.
 
 * **Automation**: Structured error detection via two-stage GPT calls
