@@ -49,6 +49,13 @@ Prompt Engineering · Python · OpenAI API · Power Automate · RPA Integration 
 
 ---
 
+📜 Certifications
+
+**Prompt Engineering Professional (PEP) Certification** – Certified in June 2025  
+Validates advanced skills in prompt design, reasoning, and LLM output evaluation using structured techniques.
+
+---
+
 💡 Currently
 Seeking freelance opportunities that leverage my strength in prompt engineering and AI-powered automation, with a focus on remote work
 
