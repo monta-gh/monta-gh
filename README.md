@@ -44,17 +44,17 @@ A Japanese-language chatbot that uses RAG (Retrieval-Augmented Generation) to an
 
 ---
 
-🪰 Skills
+🪰 Skills  
 Prompt Engineering · Python · OpenAI API · Power Automate · RPA Integration · ChromaDB · Flask · GitHub · Excel Automation · RAG
 
 ---
 
-📜 Certifications
+📜 Certifications  
 **Prompt Engineering Professional** – Certified June 2025, demonstrating advanced prompt design and LLM evaluation skills.
 
 ---
 
-💡 Currently
+💡 Currently  
 Seeking freelance opportunities that leverage my strength in prompt engineering and AI-powered automation, with a focus on remote work
 
 ---
