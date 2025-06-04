@@ -50,7 +50,6 @@ Prompt Engineering · Python · OpenAI API · Power Automate · RPA Integration 
 ---
 
 📜 Certifications
-
 **Prompt Engineering Professional** – Certified June 2025, demonstrating advanced prompt design and LLM evaluation skills.
 
 ---
