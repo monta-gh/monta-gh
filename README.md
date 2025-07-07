@@ -1,8 +1,7 @@
-I'm monta-gh  
-I'm a freelance AI enthusiast with nearly 20 years of experience in localization and multilingual translation QA, backed by a U.S. university degree.
+I'm a freelance AI enthusiast with 18 years of experience in localization and multilingual translation QA, backed by a U.S. university degree.
 Though not a full-stack engineer, I’ve created working AI tools that solve real problems—proof that curiosity and persistence can go a long way.
 In 2024, I developed and deployed an AI-powered translation QA tool using Power Automate and Azure OpenAI—without prior experience with these tools—and reduced the manual QA workload by over 70% in real-world localization projects.
-That experience marked the beginning of my journey into prompt engineering and generative AI. Since then, I've been focusing on building tools that apply structured prompts to solve practical problems in language quality evaluation and information retrieval.
+The project sparked my interest in AI’s potential—especially in areas where language quality and evaluation intersect.
 
 ---
 
@@ -51,10 +50,5 @@ Prompt Engineering · Python · OpenAI API · Power Automate · RPA Integration 
 
 📜 Certifications  
 Prompt Engineering Professional – Certified June 2025, demonstrating advanced prompt design and LLM evaluation skills.
-
----
-
-💡 Currently  
-Seeking freelance opportunities that leverage my strength in prompt engineering and AI-powered automation, with a focus on remote work
 
 ---
