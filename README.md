@@ -1,5 +1,3 @@
-18 years in localization QA · Native Japanese
-
 ## OSS Contributions
 - [YouTube-No-Translation](https://github.com/YouG-o/YouTube-No-Translation) — ja · [merged](https://github.com/YouG-o/YouTube-No-Translation/pull/158) · [released](https://chromewebstore.google.com/detail/youtube-no-translation/lmkeolibdeeglfglnncmfleojmakecjb)
 - [find+](https://github.com/brandon1024/find) — ja · [merged](https://github.com/brandon1024/find/pull/431)
