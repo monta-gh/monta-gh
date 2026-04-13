@@ -9,6 +9,9 @@
 ### Web Apps
 - [DailyTxT](https://github.com/PhiTux/DailyTxT) — ja · [merged](https://github.com/PhiTux/DailyTxT/pull/122)
 
+### Other OSS
+- [Urik](https://github.com/urikdev/Urik) — ja · [merged](https://github.com/urikdev/Urik/pull/776)
+
 ## Tools
 - [RPA-Prompt-TranslationQA](https://github.com/monta-gh/RPA-Prompt-TranslationQA)
 - [Mistranslation-Detector](https://github.com/monta-gh/Mistranslation-Detector)
