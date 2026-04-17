@@ -11,6 +11,7 @@
 
 ### Other OSS
 - [Urik](https://github.com/urikdev/Urik) — ja · [merged](https://github.com/urikdev/Urik/pull/776)
+- [Equinox](https://github.com/rlxone/Equinox) — ja · [merged](https://github.com/rlxone/Equinox/pull/97)
 
 ## Tools
 - [RPA-Prompt-TranslationQA](https://github.com/monta-gh/RPA-Prompt-TranslationQA)
