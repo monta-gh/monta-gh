@@ -15,7 +15,7 @@
 - [YouTube-No-Translation](https://github.com/YouG-o/YouTube-No-Translation) — ja · [merged](https://github.com/YouG-o/YouTube-No-Translation/pull/158)
 - [find+](https://github.com/brandon1024/find) — ja · [merged](https://github.com/brandon1024/find/pull/431)
 - [Translate-It](https://github.com/iSegaro/Translate-It) — ja · [merged](https://github.com/iSegaro/Translate-It/pull/98)
-- [Anori](https://github.com/OlegWock/anori) — ja · [merged](https://github.com/OlegWock/anori/pull/288)
+- [anori](https://github.com/OlegWock/anori) — ja · [merged](https://github.com/OlegWock/anori/pull/288)
 
 ## Tools
 - [RPA-Prompt-TranslationQA](https://github.com/monta-gh/RPA-Prompt-TranslationQA)
