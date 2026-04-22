@@ -6,6 +6,8 @@
 
 ### Android
 - [Urik](https://github.com/urikdev/Urik) — ja · [merged](https://github.com/urikdev/Urik/pull/776)
+- [StockTicker](https://github.com/premnirmal/StockTicker) — ja · [merged](https://github.com/premnirmal/StockTicker/pull/425)
+- [leon](https://github.com/leon-cleaning-services/leon) — ja · [merged](https://github.com/leon-cleaning-services/leon/pull/738)
 
 ### Web Apps
 - [DailyTxT](https://github.com/PhiTux/DailyTxT) — ja · [merged](https://github.com/PhiTux/DailyTxT/pull/122)
