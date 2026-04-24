@@ -1,3 +1,12 @@
+## Localization Workflow
+
+A human-guided AI workflow for Japanese localization —
+18 years of QA experience behind every decision.
+
+→ [See how it works](workflow.md)
+
+---
+
 ## OSS Contributions
 
 ### macOS
