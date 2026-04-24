@@ -5,8 +5,6 @@ A human-guided AI workflow for Japanese localization —
 
 → [See how it works](workflow.md)
 
----
-
 ## OSS Contributions
 
 ### macOS
