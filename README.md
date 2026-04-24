@@ -3,6 +3,7 @@
 ### macOS
 - [Equinox](https://github.com/rlxone/Equinox) — ja · [merged](https://github.com/rlxone/Equinox/pull/97)
 - [PureMac](https://github.com/momenbasel/PureMac) — ja · [merged](https://github.com/momenbasel/PureMac/pull/41)
+- [pika](https://github.com/superhighfives/pika) — ja · [merged](https://github.com/superhighfives/pika/pull/201)
 
 ### Android
 - [Urik](https://github.com/urikdev/Urik) — ja · [merged](https://github.com/urikdev/Urik/pull/776)
