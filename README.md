@@ -17,6 +17,9 @@ A human-guided AI workflow for Japanese localization —
 - [StockTicker](https://github.com/premnirmal/StockTicker) — ja · [merged](https://github.com/premnirmal/StockTicker/pull/425)
 - [leon](https://github.com/leon-cleaning-services/leon) — ja · [merged](https://github.com/leon-cleaning-services/leon/pull/738)
 
+### Flutter
+- [oinkoin](https://github.com/emavgl/oinkoin) — ja · [merged](https://github.com/emavgl/oinkoin/pull/345)
+
 ### Web Apps
 - [DailyTxT](https://github.com/PhiTux/DailyTxT) — ja · [merged](https://github.com/PhiTux/DailyTxT/pull/122)
 - [teammapper](https://github.com/b310-digital/teammapper) — ja · [merged](https://github.com/b310-digital/teammapper/pull/1248)
