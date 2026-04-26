@@ -27,6 +27,7 @@ A human-guided AI workflow for Japanese localization. → [See how it works](wor
 - [find+](https://github.com/brandon1024/find) — ja · [merged](https://github.com/brandon1024/find/pull/431)
 - [Translate-It](https://github.com/iSegaro/Translate-It) — ja · [merged](https://github.com/iSegaro/Translate-It/pull/98)
 - [anori](https://github.com/OlegWock/anori) — ja · [merged](https://github.com/OlegWock/anori/pull/288)
+- [reader-view](https://github.com/rNeomy/reader-view) — ja · [merged](https://github.com/rNeomy/reader-view/pull/232)
 
 ## Tools
 - [RPA-Prompt-TranslationQA](https://github.com/monta-gh/RPA-Prompt-TranslationQA)
