@@ -13,6 +13,7 @@ A human-guided AI workflow for Japanese localization. → [See how it works](wor
 - [Urik](https://github.com/urikdev/Urik) — ja · [merged](https://github.com/urikdev/Urik/pull/776)
 - [StockTicker](https://github.com/premnirmal/StockTicker) — ja · [merged](https://github.com/premnirmal/StockTicker/pull/425)
 - [leon](https://github.com/leon-cleaning-services/leon) — ja · [merged](https://github.com/leon-cleaning-services/leon/pull/738)
+- [wifi-password-manager](https://github.com/Khh-vu/wifi-password-manager) — ja · [merged](https://github.com/Khh-vu/wifi-password-manager/pull/21)
 
 ### Flutter
 - [oinkoin](https://github.com/emavgl/oinkoin) — ja · [merged](https://github.com/emavgl/oinkoin/pull/345)
