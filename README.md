@@ -18,6 +18,7 @@ A human-guided AI workflow for Japanese localization. → [See how it works](wor
 ### Flutter
 - [oinkoin](https://github.com/emavgl/oinkoin) — ja · [merged](https://github.com/emavgl/oinkoin/pull/345)
 - [Toolbox](https://github.com/Koizeay/Toolbox) — ja · [merged](https://github.com/Koizeay/Toolbox/pull/10)
+- [Zest](https://github.com/darkmoonight/Zest) — ja · [merged](https://github.com/darkmoonight/Zest/pull/143)
 
 ### Web Apps
 - [DailyTxT](https://github.com/PhiTux/DailyTxT) — ja · [merged](https://github.com/PhiTux/DailyTxT/pull/122)
