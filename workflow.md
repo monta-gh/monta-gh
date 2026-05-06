@@ -21,14 +21,14 @@ flowchart LR
     SA3 --- SC
 ```
 
-This design emerged through practice. It's not about efficiency — it's about keeping the main agent ready to lead.
+This design emerged through practice. Each major task — source analysis, translation, and review — is handled by a dedicated subagent, keeping the main agent's context window slim and ready for repository-specific requirements. It's not about efficiency — it's about keeping the main agent ready to lead.
 
 ---
 
 ## The 7-Step Workflow
 
 ### Step 1 — Repository & Source Analysis
-Before touching a single string, the repository is analyzed as a whole.
+A Source Analysis subagent — responsible for both Steps 1 and 2 — begins by analyzing the repository as a whole.
 
 - What does the app do? Who uses it?
 - What tone and voice does the UI use?
@@ -43,7 +43,7 @@ Before touching a single string, the repository is analyzed as a whole.
 ---
 
 ### Step 2 — Pre-Translation Analysis
-A focused analysis dedicated to translation quality.
+The same subagent then shifts focus to translation quality.
 
 - Identify all translatable strings and their context
 - Build a unified terminology table (key UI terms, brand names, untranslatable items)
@@ -57,7 +57,7 @@ A focused analysis dedicated to translation quality.
 ---
 
 ### Step 3 — AI Translation
-With Steps 1 and 2 complete, AI translation begins — fully informed by the analysis.
+With Steps 1 and 2 complete, a dedicated subagent begins translation — fully informed by the analysis.
 
 - Translation is guided by the terminology table from Step 2
 - Context from Step 1 shapes tone, formality level, and phrasing choices
@@ -65,7 +65,7 @@ With Steps 1 and 2 complete, AI translation begins — fully informed by the ana
 
 ---
 
-### Step 4 — AI Review (Independent Subagent)
+### Step 4 — AI Review
 A separate AI agent — with no access to the translation session — reviews the output independently.
 
 - Checks for mistranslations, omissions, and inconsistencies
@@ -76,7 +76,7 @@ A separate AI agent — with no access to the translation session — reviews th
 - Verifies proper nouns and URLs are untouched
 - Produces a structured review report with line-level feedback
 
-**Why it matters:** The same agent that translates cannot objectively review its own output — it tends to overlook its own mistakes, just as a human translator shouldn't proofread their own work. Independence is built into the process. A subagent also conserves the main agent's context window: offloading the review keeps the main agent's context from being consumed further — and a fresh, independent subagent produces more reliable output than the main agent, whose context has accumulated through the translation process.
+**Why it matters:** The same agent that translates cannot objectively review its own output — it tends to overlook its own mistakes, just as a human translator shouldn't proofread their own work. Independence is built into the process.
 
 ---
 
