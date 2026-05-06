@@ -1,28 +1,34 @@
-# My Localization Workflow
+# Localization Workflow
 
-I design and operate a **human-guided AI workflow** for Japanese localization — backed by 18 years of localization QA experience at a global language services company.
+A **human-guided AI workflow** for Japanese localization — backed by 18 years of localization QA experience at a global language services company.
 
-> **Every step is human-guided. No next step begins without my approval.**
+> **Every step is human-guided. No next step begins without human approval.**
 
-## Why This Workflow Exists
-
-Traditional localization relies on TMS (Translation Management Systems) — platforms designed around human translators. The translator is the center of the process.
-
-My workflow is different. **AI agents do the heavy lifting. I design, control, and approve every step.**
-
-The result: professional translation quality, predictable delivery, and PR-based handoff — all within your existing GitHub workflow.
+**AI agents do the heavy lifting. Every step is controlled and approved by a human.** The result: professional translation quality, predictable delivery, and PR-based handoff — all within your existing GitHub workflow. **Slowing down is a quality decision, not a limitation.**
 
 ---
 
-### What "Human-Guided" Really Means
-This is not just a philosophy — it's how the workflow is literally operated. Each step requires my explicit approval before the next begins. Moving too fast means problems get missed — and missed problems end up in the PR. A slow pace creates checkpoints where issues surface early. I also monitor the AI agent's context window at each checkpoint — as it fills, agent performance degrades. Controlling the pace lets me intervene before quality is affected. **Slowing down is a quality decision, not a limitation.**
+## How It Works
+
+```mermaid
+flowchart LR
+    Human --- MA[Main Agent]
+    MA --- SA1["Source Analysis<br/>(Subagent)"]
+    MA --- SA2["AI Translation<br/>(Subagent)"]
+    MA --- SA3["AI Review<br/>(Subagent)"]
+    SA1 --- SC[("Shared Memory<br/>(session_context.md)")]
+    SA2 --- SC
+    SA3 --- SC
+```
+
+This design emerged through practice. It's not about efficiency — it's about keeping the main agent ready to lead.
 
 ---
 
 ## The 7-Step Workflow
 
 ### Step 1 — Repository & Source Analysis
-Before touching a single string, I analyze your repository as a whole.
+Before touching a single string, the repository is analyzed as a whole.
 
 - What does the app do? Who uses it?
 - What tone and voice does the UI use?
@@ -46,7 +52,7 @@ A focused analysis dedicated to translation quality.
 - Identify non-translatable fields (developer notes, etc.)
 - Identify untranslatable proper nouns, product names, service names, and URLs
 
-**Why it matters:** This is where TMS-based workflows fall short — they hand files to a translator and assume the translator figures it out. I turn this into a documented, repeatable process.
+**Why it matters:** This is where TMS-based workflows fall short — they hand files to a translator and assume the translator figures it out. This workflow turns it into a documented, repeatable process.
 
 ---
 
@@ -75,7 +81,7 @@ A separate AI agent — with no access to the translation session — reviews th
 ---
 
 ### Step 5 — Native Human Review
-I review the full translation as a native Japanese speaker with 18 years of localization QA experience.
+The full translation is reviewed by a native Japanese speaker with 18 years of localization QA experience.
 
 - Catches what AI misses: nuance, cultural fit, unnatural phrasing
 - Cross-references the AI review report
@@ -89,7 +95,7 @@ I review the full translation as a native Japanese speaker with 18 years of loca
 The final output is delivered as a GitHub Pull Request — not a file attachment, not a TMS export.
 
 - Fork → branch → translate → PR: the same flow any contributor would use
-- CI checks are monitored; if errors occur, I diagnose and push fixes
+- CI checks are monitored; if errors occur, they are diagnosed and fixed
 - You review and merge on your own timeline, with full control
 
 **Why it matters:** You never leave your own workflow. No external platform to manage. No file import process. Just a PR — ready to review and merge.
@@ -112,9 +118,9 @@ Findings are immediately reflected in the workflow instruction files and skill d
 
 **TMS platforms are built around translators.** They assume a human translator sits at the center, and the platform helps that translator work efficiently.
 
-**My workflow is built around AI agents — controlled by a human.** AI handles translation and initial review. I handle analysis, human review, judgment, and approval at every step.
+**This workflow is built around AI agents — controlled by a human.** AI handles translation and initial review. Human oversight covers analysis, review, judgment, and approval at every step.
 
-|                                      | Community TMS (Weblate, etc.) | Commercial TMS (Trados, etc.) | My Workflow                |
+|                                      | Community TMS (Weblate, etc.) | Commercial TMS (Trados, etc.) | This Workflow              |
 | ------------------------------------ | ----------------------------- | ----------------------------- | -------------------------- |
 | **Who translates**                   | Volunteers                    | Professional translators      | AI agents                  |
 | **Pre-translation analysis**         | None                          | Built into the project setup  | Dedicated (Steps 1–2)   |
