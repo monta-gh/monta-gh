@@ -51,6 +51,7 @@ The same subagent then shifts focus to translation quality.
 - Define translation guidelines specific to this project
 - Identify non-translatable fields (developer notes, etc.)
 - Identify untranslatable proper nouns, product names, service names, and URLs
+- Calculate word count of all translatable strings
 
 **Why it matters:** This is where TMS-based workflows fall short — they hand files to a translator and assume the translator figures it out. This workflow turns it into a documented, repeatable process.
 
