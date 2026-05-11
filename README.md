@@ -20,6 +20,7 @@ A human-guided AI workflow for Japanese localization. → [See how it works](wor
 - [Toolbox](https://github.com/Koizeay/Toolbox) — ja · [merged](https://github.com/Koizeay/Toolbox/pull/10)
 - [Zest](https://github.com/darkmoonight/Zest) — ja · [merged](https://github.com/darkmoonight/Zest/pull/143)
 - [Rain](https://github.com/darkmoonight/Rain) — ja · [merged](https://github.com/darkmoonight/Rain/pull/225)
+- [Passy](https://github.com/GlitterWare/Passy) — ja · [merged](https://github.com/GlitterWare/Passy/pull/203)
 
 ### Web Apps
 - [DailyTxT](https://github.com/PhiTux/DailyTxT) — ja · [merged](https://github.com/PhiTux/DailyTxT/pull/122)
