@@ -1,6 +1,6 @@
-## Localization Workflow
+## Human-guided AI Agents for App Localization
 
-A human-guided AI workflow for Japanese localization. → [See how it works](workflow.md)
+A human-guided AI agent system for Japanese app localization. → [See how it works](workflow.md)
 
 ## OSS Contributions
 

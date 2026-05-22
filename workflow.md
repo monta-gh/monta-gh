@@ -1,6 +1,6 @@
 # Localization Workflow
 
-A **human-guided AI workflow** for Japanese localization — backed by 18 years of localization QA experience at a global language services company.
+A **human-guided AI agent workflow** for Japanese app localization — backed by 18 years of localization QA experience at a global language services company.
 
 > **Every step is human-guided. No next step begins without human approval.**
 
