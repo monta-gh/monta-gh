@@ -67,7 +67,7 @@ With Steps 1 and 2 complete, a dedicated subagent begins translation — fully i
 ---
 
 ### Step 4 — AI Review
-A separate AI agent — with no access to the translation session — reviews the output independently.
+A separate AI agent — powered by a more capable model than the one used for translation, and with no access to the translation session — reviews the output independently.
 
 - Checks for mistranslations, omissions, and inconsistencies
 - Flags terminology violations against the unified table
@@ -77,7 +77,7 @@ A separate AI agent — with no access to the translation session — reviews th
 - Verifies proper nouns and URLs are untouched
 - Produces a structured review report with line-level feedback
 
-**Why it matters:** The same agent that translates cannot objectively review its own output — it tends to overlook its own mistakes, just as a human translator shouldn't proofread their own work. Independence is built into the process.
+**Why it matters:** The same agent that translates cannot objectively review its own output — it tends to overlook its own mistakes, just as a human translator shouldn't proofread their own work. Independence is built into the process. Using a stronger model for review adds a second layer of rigor — catching subtle issues the translation agent may have missed.
 
 ---
 
