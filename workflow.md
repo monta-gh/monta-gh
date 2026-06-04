@@ -144,7 +144,7 @@ Any app that follows i18n conventions:
 - **Chrome Extensions** — `_locales/` structure
 - **Android** — `values-*/strings.xml`
 - **Flutter** — ARB or JSON locale files
-- **macOS** — `.lproj/Localizable.strings`
+- **macOS / iOS** — `.lproj/Localizable.strings`, `.xcstrings`
 ---
 
 ## OSS Contributions
