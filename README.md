@@ -4,10 +4,11 @@ A human-guided AI agent system for Japanese app localization. → [See how it wo
 
 ## OSS Contributions
 
-### macOS
+### macOS / iOS
 - [Equinox](https://github.com/rlxone/Equinox) — ja · [merged](https://github.com/rlxone/Equinox/pull/97)
 - [PureMac](https://github.com/momenbasel/PureMac) — ja · [merged](https://github.com/momenbasel/PureMac/pull/41)
 - [pika](https://github.com/superhighfives/pika) — ja · [merged](https://github.com/superhighfives/pika/pull/201)
+- [Off Day](https://github.com/zizicici/Off-Day) — ja · [merged](https://github.com/zizicici/Off-Day/pull/8)
 
 ### Android
 - [Urik](https://github.com/urikdev/Urik) — ja · [merged](https://github.com/urikdev/Urik/pull/776)
