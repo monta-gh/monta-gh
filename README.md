@@ -1,6 +1,8 @@
-## Human-guided AI Agents for App Localization
+## AI Agent Workflows
 
-A human-guided AI agent system for Japanese app localization. → [See how it works](workflow.md)
+**Localization** — A human-guided AI agent system for Japanese app localization. → [See how it works](workflow.md)
+
+**OSS Search** — An AI agent workflow that discovers localization-ready OSS projects on GitHub. → [See how it works](search.md)
 
 ## OSS Contributions
 
@@ -36,6 +38,8 @@ A human-guided AI agent system for Japanese app localization. → [See how it wo
 - [anori](https://github.com/OlegWock/anori) — ja · [merged](https://github.com/OlegWock/anori/pull/288)
 - [reader-view](https://github.com/rNeomy/reader-view) — ja · [merged](https://github.com/rNeomy/reader-view/pull/232)
 
-## Tools
-- [RPA-Prompt-TranslationQA](https://github.com/monta-gh/RPA-Prompt-TranslationQA)
-- [Mistranslation-Detector](https://github.com/monta-gh/Mistranslation-Detector)
+## AI Foundations (2024–2025)
+
+- [RPA-Prompt-TranslationQA](https://github.com/monta-gh/RPA-Prompt-TranslationQA) — Translation QA automation using Power Automate and Azure OpenAI. Deployed in production in 2024.
+- [OAT-Chatbot](https://github.com/monta-gh/OAT-Chatbot) — RAG-based chatbot for an acupuncture clinic's blog, using Python, Flask, OpenAI, and ChromaDB (2025).
+- [Mistranslation-Detector](https://github.com/monta-gh/Mistranslation-Detector) — Python tool that detects mistranslations and scores translation risk using GPT (2025).
