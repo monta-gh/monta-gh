@@ -1,4 +1,6 @@
-## AI Agent Workflows
+## AI Agent Projects
+
+**AI Chat Memory Architecture** — A memory loop for Claude Code — turning daily chats into a compounding asset. → [See how it works](acma.md)
 
 **Localization** — A human-guided AI agent system for Japanese app localization. → [See how it works](workflow.md)
 
