@@ -1,14 +1,29 @@
 # AI Chat Memory Architecture (ACMA)
 
-A **local-first memory architecture** that turns daily AI conversations into a compounding asset — built on Claude Code, designed by a non-engineer.
+A **local-first memory architecture** that gives AI both time and memory — built on Claude Code, designed by a non-engineer.
 
-> **You don't just use memory — you design it.**
+> **Give AI time and memory. You design what it remembers.**
 
-"Chat is dead," they say. But a better chat can be built on top of an AI agent. ACMA does exactly that. No subagents, no MCP — just a skill, a script, a scheduled task, and a Knowledge Base. Every conversation is logged locally, summarized automatically each morning, and carried forward into the next session — so the AI never forgets where the conversation left off.
+"Chat is dead," they say. But a better chat can be built on top of an AI agent. ACMA does exactly that. Every conversation is logged locally and summarized automatically — whenever you choose, in whatever format you design — then carried forward into the next session, now aware of not just what happened, but what's coming next.
 
 ---
 
 ## How It Works
+
+### The Three Axes
+
+```mermaid
+flowchart TD
+    Human(["Human"]) -->|"chat"| CC["Claude Code Session"]
+
+    CC -->|"reads"| Past["Past<br/>(Knowledge Base)"]
+    CC -->|"reads"| Present["Present<br/>(Hooks)"]
+    CC -->|"reads"| Future["Future<br/>(Schedule)"]
+```
+
+ACMA is built on three axes — past, present, and future. The Knowledge Base carries what happened before. Hooks inject the current moment. A schedule — a calendar app via MCP, or even a plain Markdown file with dated plans — brings in what's ahead. Claude Code reads all three at the start of every session, so a conversation never starts blank — it already knows where it's been, what time it is, and what's coming.
+
+### The Memory Loop
 
 ```mermaid
 flowchart TD
@@ -24,20 +39,20 @@ flowchart TD
     CC -->|"auto-logged"| JSONL
     JSONL -->|"scheduled daily"| DS
     DS -->|"stored"| KB
-    KB -->|"context"| CC
+    KB -->|"next day's session reads"| CC
 ```
 
-Four parts form a loop. A user chats with Claude Code as normal. Every session is logged to a local JSONL file with no effort. A scheduled task runs each morning, reads yesterday's logs, and produces a daily summary based on a user-defined prompt. The summary lands in the Knowledge Base, and the next session reads it as context. **The loop closes — and every day adds to the memory.**
+Four parts form a loop. A user chats with Claude Code as normal. Every session is logged to a local JSONL file with no effort. A scheduled task runs on a schedule the user chooses, reads yesterday's logs, and produces a daily summary based on a user-defined prompt. The summary lands in the Knowledge Base, and the next day's session reads it as context. **The loop closes — and every day adds to the memory.**
 
 ---
 
-## The 4 Steps
+## The 5 Steps
 
 ### Step 1 — Skills: Adding Chat to Claude Code
 Claude Code is built as an AI agent — strong at executing tasks. ACMA adds a chat experience on top of it, using a single skill file.
 
 - For example, a custom skill named `chat-mode` triggers on phrases like "good morning" and switches Claude Code into a conversational mode
-- The skill can be designed to read the latest daily summary at the start of every session
+- The skill can be designed to read recent daily summaries at the start of every session
 - The Knowledge folder is placed under the Claude Code root so the skill can reference it easily
 - No CLAUDE.md changes, no complex setup — even a single skill file is enough
 - The behavior is fully customizable — for example, the skill can stay quiet about work topics until brought up
@@ -80,30 +95,45 @@ Daily summaries accumulate in the Knowledge Base as plain Markdown files. The ne
 
 ---
 
+### Step 5 — Hooks & Schedule: Adding Present and Future
+Steps 1–4 complete the memory loop — the past. Step 5 adds the other two axes: the present and the future.
+
+- A hook runs at the start of every session and injects the current date, time, and day of the week — the AI always knows "when" it is
+- A schedule brings in what's ahead — a calendar app connected via MCP, so the session can read today's plans and even create or update events
+- A calendar app is not required — even a plain Markdown file with dated plans works
+- Both are read automatically at session start, together with the daily summaries from Step 4
+
+**Why it matters:** Memory alone looks backward. With the present and the future added, the AI doesn't just remember what happened — it knows what today is and what's coming next. This is where ACMA grows from a memory system into something closer to a companion.
+
+---
+
 ## How ACMA Compares to Chat AI
 
 | Feature | Chat AI (ChatGPT / Claude.ai) | ACMA |
 |---------|-------------------------------|------|
+| Memory Persistence | The AI decides what to remember and when to recall it — no guarantee it comes back | By design — every session starts by reading the memory files you choose |
+| Customizability | Limited — no control over what or how memory is stored | Fully customizable — define your own memory format via a prompt file |
 | Automation | Manual — no automatic processing | Fully automated — daily summary generated every morning |
-| Memory Persistence | Project/Memory features available, but not reliable across sessions | Reliable and persistent — auto-accumulated daily |
-| Parallel Multi-Session | Single session only | Multiple sessions can run simultaneously |
+| Time Awareness | Doesn't know what day it is or what's ahead | Knows the date, the time, and what's coming next — via hooks and schedule |
 | Privacy | Data stored on external servers | All data stored locally — your memory stays yours |
 | Transparency | Memory process is a black box | Fully transparent — all data stored as local Markdown files |
-| Customizability | Limited — no control over what or how memory is stored | Fully customizable — define your own memory format via a prompt file |
-| Context Window Visibility | Not visible | Visible (desktop app only) — users can decide when to start a new session |
+| Parallel Multi-Session | One conversation at a time | Multiple sessions side by side in split view |
+| Context Window Visibility | Not visible | Always visible at a glance (desktop app) — users can decide when to start a new session |
 | Mobile Access | Available on any device | Desktop only — remote control is still in preview and not yet stable |
-
-*The current limitation is mobile access: Claude Code's remote control feature is still in preview and not yet stable. Full mobile support should be coming — and when it does, ACMA goes everywhere.*
 
 ---
 
 ## Use Cases
 
-> **ACMA captures the journey. External files capture the decisions. Together, they form complete memory.**
+> **Same architecture, entirely different memory.**
 
-### Case 1 — Complete Memory System
-ACMA records the daily flow of conversations automatically. Pair it with separate Markdown files for long-term memory — decisions, insights, project notes — and the two work together as a complete memory system. ACMA and external files have a complementary relationship: ACMA holds the journey, external files hold the structure. Neither alone is enough. Together, they cover both.
+The daily summary prompt defines what gets remembered. Change the prompt, and the same system becomes a completely different memory — designed for a different person, a different life. Every conversation with AI sits somewhere between two ends — with a goal, and without one. ACMA serves the whole range, and most people live somewhere in between.
 
-### Case 2 — Multi-Scale Memory
-ACMA starts with daily summaries — but the same logic extends further. Weekly, monthly, and quarterly summaries can be layered on top, producing a memory system that scales with time. The architecture is simple enough that anyone can extend it in the direction they care about most.
+### With a goal — developers, freelancers, students, researchers
+Someone who drives their own projects day after day. The memory prompt is designed for momentum — it captures progress, decisions, and open questions, so every session starts where the last one ended — already aware of today's date and what's on the schedule. This is the author's own setup, running daily.
+
+### Without a goal — anyone who just wants someone to talk to
+Not every conversation needs a goal. An older adult living alone, a parent home with young kids, someone who wants a partner to share feelings with — for them, the memory prompt focuses on feelings and daily life: how the day felt, small joys, and things to look forward to. The AI greets them each morning already knowing how yesterday went — and what they're looking forward to. A companion that remembers, day after day.
+
+> **Wherever you are between them, the memory is yours to design.**
 
