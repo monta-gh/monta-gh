@@ -117,7 +117,6 @@ Steps 1–4 complete the memory loop — the past. Step 5 adds the other two axe
 | Time Awareness | Doesn't know what day it is or what's ahead | Knows the date, the time, and what's coming next — via hooks and schedule |
 | Privacy | Data stored on external servers | All data stored locally — your memory stays yours |
 | Transparency | Memory process is a black box | Fully transparent — all data stored as local Markdown files |
-| Parallel Multi-Session | One conversation at a time | Multiple sessions side by side in split view |
 | Context Window Visibility | Not visible | Always visible at a glance (desktop app) — users can decide when to start a new session |
 | Mobile Access | Available on any device | Desktop only — remote control is still in preview and not yet stable |
 
