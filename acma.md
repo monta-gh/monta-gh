@@ -65,7 +65,7 @@ Claude Code is built as an AI agent — strong at executing tasks. ACMA adds a c
 Every session with Claude Code is automatically saved as a JSONL file on the local machine — no action required.
 
 - Fully automatic — no command, no setting to enable
-- Stored locally — data never leaves the local machine
+- Stored locally — a copy always stays on your own machine
 - Complete — the entire conversation is captured
 
 **Why it matters:** Conversations turn into an asset without conscious effort. This is the raw material that powers the entire ACMA loop. Noticing this local auto-save was the moment ACMA was born — and it's the reason ACMA exists at all.
@@ -115,7 +115,7 @@ Steps 1–4 complete the memory loop — the past. Step 5 adds the other two axe
 | Customizability | Limited — no control over what or how memory is stored | Fully customizable — define your own memory format via a prompt file |
 | Automation | Manual — no automatic processing | Fully automated — daily summary generated every morning |
 | Time Awareness | Doesn't know what day it is or what's ahead | Knows the date, the time, and what's coming next — via hooks and schedule |
-| Privacy | Data stored on external servers | All data stored locally — your memory stays yours |
+| Privacy | Data stored on external servers | Your memory lives in local files — and stays yours |
 | Transparency | Memory process is a black box | Fully transparent — all data stored as local Markdown files |
 | Context Window Visibility | Not visible | Always visible at a glance (desktop app) — users can decide when to start a new session |
 | Mobile Access | Available on any device | Desktop only — remote control is still in preview and not yet stable |
